@@ -1,11 +1,10 @@
 # =========================
 # Python virtual environment
 # =========================
-venv/
 .venv/
-.env
-.env/
+venv/
 ENV/
+.env
 
 # =========================
 # Python cache / compiled
@@ -23,7 +22,7 @@ __pycache__/
 # =========================
 # VS Code
 # =========================
-.vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 
@@ -40,12 +39,9 @@ __pycache__/
 *.swp
 
 # =========================
-# Data files (optional)
+# Data & output files
 # =========================
-# Uncomment these if you don't want raw data in Git
 *.csv
 *.xlsx
-# *.parquet
-# data/
 *.pdf
-
+figs/
